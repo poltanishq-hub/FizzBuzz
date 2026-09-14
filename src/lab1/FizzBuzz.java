@@ -7,10 +7,16 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
-        for (int i = 1; i <= 100; i++) {
-
+        int i=1;
+        while(i<=100){
             doFizzBuzz(i);
+            i++;
         }
+
+
+//        for (int i = 1; i <= 100; i++) {
+//            doFizzBuzz(i);
+//        }
     }
 
     public static void doFizzBuzz(int i) {

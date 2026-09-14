@@ -541,6 +541,8 @@ We'll briefly summarize two approaches you might take for this:
 2. Add the other person to your project. They can now clone your repository directly using
    the HTTPS URL as you did during the lab and also push changes.
 
+
+Change made in README.md from git for practising git pull
 3. Now, if one of you makes a local change and then pushes it,
    the other will need to do a `git pull` to get the changes. Of course, if you both make changes
    and try to push, there may be conflicting changes which need to be resolved. As mentioned earlier,
